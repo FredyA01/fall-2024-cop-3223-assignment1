@@ -31,7 +31,7 @@ double calculateDistance() {
     printf("Enter coordinates for Point #2 (x2 y2): ");
     scanf("%lf %lf", &x2, &y2);
 
-    double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    double distance = ((x2 - x1, 2) + (y2 - y1, 2));
     printf("Point #1 entered: x1 = %.2lf; y1 = %.2lf\n", x1, y1);
     printf("Point #2 entered: x2 = %.2lf; y2 = %.2lf\n", x2, y2);
     printf("The distance between the two points is %.2lf\n", distance);
@@ -60,7 +60,7 @@ double calculateArea() {
     double distance = calculateDistance(); // Assuming the distance is the diameter
 
     radius = distance / 2.0;
-    area = PI * pow(radius, 2);
+    area = PI * (radius, 2);
 
     printf("Point #1 entered: x1 = 0.00; y1 = 0.00\n"); // Dummy points as placeholders
     printf("Point #2 entered: x2 = %.2lf; y2 = %.2lf\n", distance, 0.00); // Dummy point
