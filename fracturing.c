@@ -22,7 +22,8 @@ int main(int argc, char **argv) {
     double distance = calculateDistance(x1, y1, x2, y2);
     double perimeter = calculatePerimeter(distance);
     
-    printf("Point #1 entered: %f\n", x1, y1);
+    printf("Point #1 entered: (%f, %f)\n", x1, y1);
+    printf("Point #2 entered: (%f, %f)\n", x2, y2);
     printf("distance: %f\n", distance);
     printf("circumference: %f\n", perimeter);
 
