@@ -62,10 +62,10 @@ double calculateArea(double distance){
 
 double calculateWidth(double x1, double x2){
 
-    return x2 - x1;
+    return fabs(x2 - x1);
 }
 
 double calculateHeight(double y1, double y2){
  
-    return y2 - y1;
+    return fabs(y2 - y1);
 }
