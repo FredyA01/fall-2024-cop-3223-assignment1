@@ -22,9 +22,10 @@ double calculateDistance();
 
 double calculateDistance() {
 double x1 = 2, y1 = 4, x2 = 5, y2 = 8;
+double dx = x2 - x1;
+double dy = y2 - y1;
 
-
-double distance = (sqrt(pow(x2-x1), 2+pow(y2-y1), 2));
+double distance = (sqrt(pow(dx, 2) + pow(dy, 2)));
 printf ("result: %f\n", distance);
 return distance;
 }
