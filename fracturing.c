@@ -26,9 +26,6 @@ int main(int argc, char **argv) {
     return 0;
 }
 double calculateDistance(double x1, double y1, double x2, double y2) {
-    double x1, x2, y1, y2;
-
-  
 
     // Calculation using Distance Formula
     double dx = x2 - x1;
