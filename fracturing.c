@@ -10,8 +10,10 @@ double calculateHeight(double y1, double y2);
 //Define the value of Pi
 #define Pi  3.14159
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) 
+{
     double x1, y1, x2, y2;
+
   // Prompt user for input
     printf("Enter coordinates of the first point (x1 y1): ");
     scanf("%lf %lf", &x1, &y1);
@@ -35,8 +37,8 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-double calculateDistance(double x1, double y1, double x2, double y2) {
-
+double calculateDistance(double x1, double y1, double x2, double y2) 
+{
     // Calculation using Distance Formula
     double dx = x2 - x1;
     double dy = y2 - y1;
@@ -45,27 +47,28 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
     return distance;
 }
 
-double calculatePerimeter(double distance) {
-
+double calculatePerimeter(double distance) 
+{
     double radius = distance / 2;
     double perimeter = 2 * Pi * radius;
 
     return perimeter;
 }
 
-double calculateArea(double distance){
+double calculateArea(double distance)
+{
     double radius = distance / 2;
     double area = Pi * pow(radius, 2);
 
     return area;
 }
 
-double calculateWidth(double x1, double x2){
-
+double calculateWidth(double x1, double x2)
+{
     return fabs(x2 - x1);
 }
 
-double calculateHeight(double y1, double y2){
- 
+double calculateHeight(double y1, double y2)
+{
     return fabs(y2 - y1);
 }
