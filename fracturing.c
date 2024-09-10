@@ -37,6 +37,7 @@ int main(int argc, char **argv)
 
     return 0;
 }
+
 double calculateDistance(double x1, double y1, double x2, double y2) 
 {
     // Calculation using Distance Formula
